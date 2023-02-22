@@ -57,4 +57,5 @@ public class AsteroidControlSystem implements IEntityProcessingService {
             entity.setShapeX(shapex);
             entity.setShapeY(shapey);
     }
-
+    */
+}
