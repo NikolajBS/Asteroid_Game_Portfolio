@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Asteroid/Asteroid.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Asteroid/Asteroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Asteroid_Game_Portfolio.iml" filepath="$PROJECT_DIR$/.idea/Asteroid_Game_Portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/AsteroidsEntityFramework.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/AsteroidsEntityFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Common/Common.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Core/Core.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Enemy/Enemy.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Enemy/Enemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Player/Player.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Player/Player.iml" />
+    </modules>
+  </component>
+</project>

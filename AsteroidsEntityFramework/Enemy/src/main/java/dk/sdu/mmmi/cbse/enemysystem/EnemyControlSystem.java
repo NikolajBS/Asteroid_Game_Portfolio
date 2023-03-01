@@ -10,22 +10,39 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 
+import java.util.Random;
+
 /**
  *
  * @author jcs
  */
 public class EnemyControlSystem implements IEntityProcessingService {
-
+    private int counter = 0;
+    private int randomNumber = new Random().nextInt(0,2);
     @Override
     public void process(GameData gameData, World world) {
+
 
         for (Entity enemy : world.getEntities(Enemy.class)) {
             PositionPart positionPart = enemy.getPart(PositionPart.class);
             MovingPart movingPart = enemy.getPart(MovingPart.class);
-
-            movingPart.setLeft(gameData.getKeys().isDown(LEFT));
-            movingPart.setRight(gameData.getKeys().isDown(RIGHT));
-            movingPart.setUp(gameData.getKeys().isDown(UP));
+            if (randomNumber == 0 && counter < 10) {
+                movingPart.setLeft(true);
+            }
+            if (randomNumber == 1 && counter < 10) {
+                movingPart.setRight(true);
+            }
+            if(counter % 50 == 0){
+                movingPart.setLeft(false);
+                movingPart.setRight(false);
+            }
+            if (counter >= 200){
+                counter = 0;
+                randomNumber = new Random().nextInt(0,2);
+            }
+            counter++;
+            //System.out.println("counter is " + counter + " and randomNumber is " + randomNumber);
+            movingPart.setUp(true);
             
             
             movingPart.process(gameData, enemy);
