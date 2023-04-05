@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Asteroid/Asteroid.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Asteroid/Asteroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Asteroid_Game_Portfolio.iml" filepath="$PROJECT_DIR$/.idea/Asteroid_Game_Portfolio.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/AsteroidsEntityFramework.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/AsteroidsEntityFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Bullet/Bullet.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Bullet/Bullet.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Common/Common.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Common/Common.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Core/Core.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Core/Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework/Enemy/Enemy.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework/Enemy/Enemy.iml" />
