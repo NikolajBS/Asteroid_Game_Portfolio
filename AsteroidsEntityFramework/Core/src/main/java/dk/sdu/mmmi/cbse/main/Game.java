@@ -20,8 +20,7 @@ import dk.sdu.mmmi.cbse.enemysystem.EnemyControlSystem;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Game
-        implements ApplicationListener {
+public class Game implements ApplicationListener {
 
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
