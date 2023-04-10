@@ -1,3 +1,2 @@
-# Asteroid_Game_Portfolio
 
-# My portfolio for compoenent based systems
+# My Asteroid Game Portfolio for component based systems
