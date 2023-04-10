@@ -16,8 +16,11 @@ public class Main {
 		cfg.height = 800;
 		cfg.useGL30 = false;
 		cfg.resizable = false;
-		
-		new LwjglApplication(new Game(), cfg);
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+		Game game = (Game) context.getBean("Game");
+
+		new LwjglApplication(game, cfg);
 		
 	}
 	
