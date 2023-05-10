@@ -6,6 +6,15 @@
         <option value="$PROJECT_DIR$/AsteroidsEntityFramework/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/AsteroidsEntityFramework/Asteroid/pom.xml" />
+        <option value="$PROJECT_DIR$/AsteroidsEntityFramework/Bullet/pom.xml" />
+        <option value="$PROJECT_DIR$/AsteroidsEntityFramework/Common/pom.xml" />
+        <option value="$PROJECT_DIR$/AsteroidsEntityFramework/Enemy/pom.xml" />
+        <option value="$PROJECT_DIR$/AsteroidsEntityFramework/Player/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>

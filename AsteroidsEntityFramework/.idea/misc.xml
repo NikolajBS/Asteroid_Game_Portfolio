@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Collision/pom.xml" />
+        <option value="$PROJECT_DIR$/CommonAsteroids/pom.xml" />
         <option value="$PROJECT_DIR$/CommonBullet/pom.xml" />
         <option value="$PROJECT_DIR$/CommonEnemy/pom.xml" />
       </set>
