@@ -10,8 +10,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 	
 	public static void main(String[] args) {
-		//ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
-		//Game game = (Game) context.getBean("Game");
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(ModuleConfig.class);
 
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();

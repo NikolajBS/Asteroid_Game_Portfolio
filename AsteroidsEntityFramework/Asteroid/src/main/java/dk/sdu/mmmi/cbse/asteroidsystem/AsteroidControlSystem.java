@@ -7,25 +7,37 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 
+import java.util.Random;
+
 import static dk.sdu.mmmi.cbse.common.data.GameKeys.*;
 
 public class AsteroidControlSystem implements IEntityProcessingService {
+    int randomNum = new Random().nextInt(0,2);
+    int counter = 0;
     @Override
     public void process(GameData gameData, World world) {
 
         for (Entity asteroids : world.getEntities(Asteroid.class)) {
             PositionPart positionPart = asteroids.getPart(PositionPart.class);
             MovingPart movingPart = asteroids.getPart(MovingPart.class);
-            // TODO make it move in random directions
-            movingPart.setLeft(gameData.getKeys().isDown(LEFT));
-            movingPart.setRight(gameData.getKeys().isDown(RIGHT));
-            movingPart.setUp(gameData.getKeys().isDown(UP));
-
+            if (counter < 10 & randomNum == 1) {
+                movingPart.setLeft(true);
+            }
+            else if(counter < 10 & randomNum == 0) {
+                movingPart.setRight(true);
+            }
+            else if(counter > 10) {
+                movingPart.setLeft(false);
+                movingPart.setRight(false);
+            }
+            counter++;
+            movingPart.setUp(true);
 
             movingPart.process(gameData, asteroids);
             positionPart.process(gameData, asteroids);
 
             updateShape(asteroids);
+
         }
     }
     private void updateShape(Entity entity) { //TODO change the shape of the asteroids
