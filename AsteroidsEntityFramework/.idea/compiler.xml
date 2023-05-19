@@ -10,13 +10,13 @@
         <module name="Player" />
         <module name="Asteroid" />
         <module name="Enemy" />
+        <module name="Collision" />
         <module name="CommonBullet" />
         <module name="Common" />
         <module name="Core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Collision" target="17" />
       <module name="CommonAsteroids" target="17" />
       <module name="CommonEnemy" target="17" />
     </bytecodeTargetLevel>
