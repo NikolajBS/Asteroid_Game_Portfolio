@@ -6,8 +6,7 @@ import dk.sdu.mmmi.cbse.common.data.GameData;
 
 import static java.lang.Math.*;
 
-public class MovingPart
-        implements EntityPart {
+public class MovingPart implements EntityPart {
 
     private float dx, dy;
     private float deceleration, acceleration;
